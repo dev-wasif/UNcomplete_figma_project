@@ -5,36 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body>
-    <div class="cont">
-        Sign up and get 20% off to your first order. <a  class="link"   href="#">Sign Up Now</a>
+    <div class="offer">
+      <p class="text-offer">  Sign up and get 20% off to your first order. <a class="offer-link" href="#">Sign Up Now</a></p>
     </div>
     <div class="nav">
-        <div class="name"> <STRONG>SHOP.CO</STRONG></div>
-        <div class="anm">Shop</div>
-        <div class="anm">On Sale </div>
-        <div class="anm">New Arrvival</div>
-        <div class="anm">Brands</div> 
-        <div class="inp"> <input  type="search" class="int  placeholder =rearch bar "></div>
+        <div class="name animate__animated animate__pulse" ><STRONG>SHOP.CO</STRONG></div>
+        <div class="nav-link">Shop</div>
+        <div class="nav-link">On Sale </div>
+        <div class="nav-link">New Arrvival</div>
+        <div class="nav-link">Brands</div> 
+        <div class="search-box">
+    <span class="search-icon">🔍</span><input type="text" placeholder="Search for products..."></div>
         <div class="svg">
         <img src="./Images/Vector.svg">
         <img src="./Images/Frame.svg">
-        <img src="./Images/Frame (1).svg"></div>
         </div>
-
+        </div>
     </div>
-</br>
+    <br/>
+    
     <div class="header">
         <div class="head">
-            <div class="fr"><strong>FIND CLOTHES THAT MATCHES YOUR STYLE</strong></div>
+            <div class="head_1"><strong>FIND CLOTHES THAT MATCHES YOUR STYLE</strong></div>
             <div><p>Browse through our diverse range of meticulously crafted garments, designed to bring out your individuality and cater to your sense of style.</p></div>
           
             <div>
                <div class="head_img"><img src="./Images/Vector (1).svg"></div> 
                <div class="head_img1"><img src="./Images/Vector.png"></div>
 
-                 <div class="btn"><button> Shop Now </button></div>
+                 <div"><button class="btn_shopnow"> Shop Now </button></div>
             </div>
 
         
@@ -49,7 +51,7 @@
     </div>
     <div class="new">
         <div class="gre"><h1><strong>New Arrival</strong></h1></div>
-      <div class="top-section"></div>
+      <div class="Top-section"></div>
 
 <div class="products-box">
 
@@ -92,14 +94,14 @@
     </div>
 
     <div class="view-all-container">
-        <!-- <button class="view-all">View All</button> -->
+        <button class="view-all">View All</button>
     </div>
 
 </div>
  
  <div class="new">
         <div class="gre"><h1><strong>top selling</strong></h1></div>
-      <div class="top-section"></div>
+      <div class="Top-section"></div>
 
 <div class="products-box">
 
@@ -169,10 +171,11 @@
             <img src="./Images/Gym.png" alt="Gym">
             
         </div>
-
+        
     </div>
 </div>
-
+    <br/>
+     <br/>
     <footer class="shop-footer">
         
         <div class="newsletter-banner">
@@ -181,10 +184,9 @@
                 
                 <form class="newsletter-form">
                     <div class="input-group">
-                        <svg class="email-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-                          <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
-                        </svg>
                         <input type="email" placeholder="Enter your email address" required>
+                        <br/>
+                        <button type="button" class="btn-news">Subsribe to newslater</button>
                     </div>
                 </form>
             </div>

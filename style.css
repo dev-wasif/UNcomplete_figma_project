@@ -551,6 +551,7 @@ margin-bottom: 25px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+     scrollbar-width: none;
 }
 
 .footer-brand {
@@ -714,7 +715,6 @@ margin-bottom: 25px;
         justify-content: space-between;
     }
     .link-column {
-        /* On small screens, 2 columns per row */
         flex: 1 1 40%; 
         margin-bottom: 30px;
     }
@@ -727,7 +727,6 @@ margin-bottom: 25px;
 
 @media (max-width: 480px) {
     .link-column {
-        /* On very small screens, 1 column per row */
         flex: 1 1 100%; 
     }
     .newsletter-content h2 {
@@ -737,3 +736,139 @@ margin-bottom: 25px;
   
 
 
+.customer-section {
+width: 100%;
+padding: 40px 20px;
+position: relative;
+bottom: 60px;
+font-family: Arial, sans-serif;
+
+}
+
+
+.title {
+font-size: 28px;
+font-weight: 800;
+margin-bottom: 25px;
+}
+
+.customer-section {
+width: 100%;
+padding: 60px 20px 40px 20px; 
+font-family: Arial, sans-serif;
+box-sizing: border-box;
+height: 300px;
+
+}
+
+
+.title {
+font-size: 28px;
+font-weight: 800;
+margin-bottom: 25px;
+}
+
+.customer-section {
+width: 100%;
+padding: 60px 20px 40px 20px; 
+font-family: Arial, sans-serif;
+box-sizing: border-box;
+}
+
+
+.title {
+font-size: 28px;
+font-weight: 800;
+margin-bottom: 25px;
+}
+
+
+.customers-flex {
+display: flex;
+gap: 20px;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: stretch; 
+}
+
+
+.customer-box {
+flex: 1 1 calc(33.33% - 20px);
+background: #fff;
+border: 1px solid #e5e5e5;
+border-radius: 12px;
+padding: 25px;
+box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+min-width: 280px;
+box-sizing: border-box;
+display: flex;
+flex-direction: column; /* keep content vertical */
+justify-content: flex-start; /* prevent push-down */
+height: auto;
+overflow: hidden; /* fix overflow issue */
+}
+
+
+.stars {
+color: gold;
+font-size: 18px;
+margin-bottom: 10px;
+}
+
+
+.customer-box h4 {
+margin: 0 0 10px 0;
+font-size: 16px;
+font-weight: 700;
+}
+
+
+.verified {
+color: green;
+font-size: 14px;
+}
+
+
+.customer-box p {
+font-size: 14px;
+color: #555;
+line-height: 1.5;
+margin-top: 10px;
+word-break: break-word; /* fix text overflow */
+}
+
+
+/* RESPONSIVE */
+@media(max-width: 900px) {
+.customer-box {
+flex: 1 1 calc(50% - 20px);
+}
+}
+
+
+@media(max-width: 600px) {
+.customer-box {
+flex: 1 1 100%;
+}
+}
+
+.text-style{
+    position: relative;
+    top: 2px;
+   left: 1px;
+   font-size: 12px;
+   font-size: 12px;
+ text-align: start;
+
+
+}
+
+
+.svg :hover {
+    color: blue;
+}
+
+.nav-link:hover{
+    font-weight: bold;
+    
+}
